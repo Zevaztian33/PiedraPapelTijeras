@@ -1,0 +1,23 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+.iconos {
+    display: flex;
+    justify-content: space-around;
+}
+#resultado h1{
+    color: red;
+}
+#resultado img{
+    width: 100px;
+    height: 100px;
+}
+button{
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+}
+a{
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+}

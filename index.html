@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Juego de Piedra-Papel-Tijeras</title>
+</head>
+<body>
+    <h1>Juego de Piedra - Papel - Tijeras</h1>
+    <h2>Selecciona tu opción:</h2>
+    <div class="iconos">
+        <div onclick="seleccion('0')" id="piedra"><img src="./img/piedra.png" alt="piedra"></div>
+        <div onclick="seleccion('1')" id="papel"><img src="./img/papel.png" alt="papel"></div>
+        <div onclick="seleccion('2')" id="tijeras"><img src="./img/tijeras.png" alt="tijeras"></div>
+    </div>
+    <div id="resultado"></div>
+    <button><a href="/">Reset</a></button>
+    <p>Realizado por Sebastian Araos 2021</p>
+    <script src="scritp.js"></script>
+</body>
+</html>
